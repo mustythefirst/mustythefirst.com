@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="C:\Users\Owner\Desktop\Personal Website\Homepage\index.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale1.0"/>
+    <meta charset="UTF-8" />
+    <script src="https://use.fontawesome.com/1f7574b213.js"></script>
+    </head>
+
+    
+    <body>
+        <nav>
+        <h2 id="logo"><a href="C:\Users\Owner\Desktop\Personal Website\Homepage\index.html">Mustythefirst</a></h2>
+        <ul class="navigation-items">
+                <li class="navigation-item"><a href=#about-me>About me</a><li>
+                <li class="navigation-item"><a href="#projects&Articles"><li>Projects & Articles</a></li>
+                <li class="navigation-item"><a href="#skills">Skills</li></a>
+                <li class="navigation-item"><a href="C:\Users\Owner\Desktop\Personal Website\Contact\contact.html">Contact</li></a>
+            </ul>
+        </nav>
+          
+          
+          <main>
+              <section id="about-me">
+                  <div class="about-me-container">
+                  <div class="about-me-text-container">
+                      <h2>About me</h2>
+                      <p>Hi! My name is Mustafa (Musty) and I am an accountants assistant
+        and writer. I am fascinated and excited by what techonology is going to
+    bring to the finance world.
+    In particular, blockchain.</p>
+                      <p> In my free time I like to read about scientific developments and about technology that will
+improve human productivity and efficiency. I have seen first hand, how when techology is properly
+used, increases output immensely.</p> 
+                      <p>As an Accounting and Econonics graduate. I can see how algortihms, with the aid of
+artificail intellegicence, could be applied, in terms
+making the bookkeeping process fully autonomous.</p>
+<section id="projects&Articles">
+    <div>
+    <h2>Projects & Articles</h2>
+    <ul>
+      <li><a href="C:\Users\Owner\Desktop\Personal Website\tea-Cozy\teaCozy.html">Tea Cozy</a></li>
+      <li><a href="C:\Users\Owner\Desktop\Personal Website\excursion\excursion.html"> Excursion</a></li>
+        <li><a href="C:\Users\Owner\Desktop\Personal Website\colmarAcademy\colmarAcademy.html">Colmar Academy</a></li>
+        <li><a href="C:\Users\Owner\Desktop\Personal Website\gameStop\gameStop.html">GameStop</a></li>
+      <li><a href="C:\Users\Owner\Desktop\Personal Website\bookkeeping\bookkeeping.html">Bookkeeping</a></li>
+    </ul>
+    <p>Fun fact! I've been programing for <span id="time-container">0</span> seconds!</p>
+
+    </div>
+    
+        
+           
+
+</section>
+
+
+
+                    </div>
+                    
+
+                    <div>
+                        <img src="C:\Users\Owner\Desktop\Personal Website\homepage\profilePic.png" alt="Profile Picture" width="400px" height="400px" class="profilePic"/></div>
+    
+                    </div>
+                    
+
+                       
+                      </section>
+
+                       
+                        
+                            
+                    
+
+                
+
+                    
+
+                      
+            
+    
+
+                    
+                    <section id="skills"></section>
+<h2>Skills</h2>
+<div id="skills-container">
+<i><img src="C:\Users\Owner\Desktop\Personal Website\homepage\htmlLogo.png" width="200x" height="150px"></i>
+<i><img src="C:\Users\Owner\Desktop\Personal Website\homepage\javascriptLogo.png" width="100px" height="80px"></i>
+<i><img src="C:\Users\Owner\Desktop\Personal Website\homepage\cssLogo.png" width="184px" height="138px"></i></div>
+
+                
+                
+            
+
+
+<footer> © 2021 Made in London   </footer>
+
+</body>
+<script>
+    const timeContainer = document.getElementById("time-container");
+    const BIRTH_DAY = "01-04-2021";
+    const BIRTH_DAY_DATE = new Date(BIRTH_DAY);
+    const intlNumberFormatter = new Intl.NumberFormat("en-US");
+
+    setInterval(() => {
+      const now = new Date();
+      const difference = Math.floor(
+        (now.getTime() - BIRTH_DAY_DATE.getTime()) / 1000
+      );
+
+      timeContainer.innerText = intlNumberFormatter.format(difference);
+    }, 1000);
+  </script>
+
+
+    
+</html>
+

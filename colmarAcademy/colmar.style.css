@@ -1,0 +1,143 @@
+.name {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 24px;
+    font-size: 32px;
+    font-weight: bold;
+    color: grey;
+}
+
+.menu {
+    margin-top: -2.9%;
+    padding-right: 24px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    
+}
+
+li {
+    display: inline;
+    padding: 0px 16px;
+    float: right;
+    color: grey;
+}
+
+header {
+    height: 64px;
+    display: inline;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+.cover {
+    background-color: #d8d8d8;
+    width: 100%;
+    display: flex;
+}
+
+.cover img {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 24px;
+}
+
+.leftPic {
+    width: 60%;
+    padding: 2rem 1.7rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.learn {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 15%;
+    font-size: 23px;
+    
+}
+
+.cover2-container {
+    display: flex;
+
+}
+
+p {
+    margin: 0%;
+}
+
+.cover2left {
+    width: 60%;
+}
+
+.cover2right {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cover2right img {
+    width: 35%;
+    margin-left: 50%;
+
+}
+
+.cover2right p {
+    width: 65%;
+}
+
+.startlearning {
+    width: 100%;
+    background-color: lightgrey;
+}
+
+.startlearning-header {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.startlearning-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.startlearning-bottom {
+    background-color: white;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.thesis-exhibit-header {
+    text-align: center;
+}
+
+.thesis-exhibit {
+    width: 100%;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.thesis-exhibit-container {
+    display: inline-flex;
+    padding-top: 32px;
+}
+
+.thesis.left {
+    width: 60%;
+}
+
+.thesis.right {
+    width: 40%;
+    display: inline-flexbox;
+}
+
+footer {
+    padding-left: 24px;
+    padding-top: 16px;
+}
