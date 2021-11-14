@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 55px;
+}
+
+.link {
+    color: aquamarine ;
+    text-align: center;
+}
+
+.video {
+    text-align: center;
+}
+
+.explanation {
+    color: grey;
+    text-align: center;
+}
+
+.tent {
+    margin-left: 25%;
+}
+
+.cellphone {
+    margin-left: 49%;
+    padding-top: 1%;
+    background-color: black;
+}
+
+footer {
+    color: grey;
+    text-align: right;
+    margin-right: 1%;
+}
